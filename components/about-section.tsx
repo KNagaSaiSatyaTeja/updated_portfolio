@@ -52,7 +52,7 @@ export function AboutSection() {
             <div className="relative h-64 w-64 overflow-hidden rounded-full md:h-80 md:w-80 border-4 border-primary/20 p-2">
               <div className="h-full w-full overflow-hidden rounded-full">
                 <Image
-                  src="/placeholder.svg?height=320&width=320"
+                  src="/me.jpg?height=320&width=320"
                   alt="Profile"
                   fill
                   className="object-cover transition-transform duration-500 hover:scale-110"
@@ -96,14 +96,6 @@ export function AboutSection() {
             <motion.div variants={fadeInUp} className="grid grid-cols-2 gap-4">
               <Card className="bg-primary/5 hover:bg-primary/10 transition-colors duration-300">
                 <CardContent className="p-4 flex flex-col items-center justify-center text-center">
-                  <Award className="h-8 w-8 text-primary mb-2" />
-                  <h4 className="font-medium">Experience</h4>
-                  <p className="text-sm text-muted-foreground">1 Years</p>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-primary/5 hover:bg-primary/10 transition-colors duration-300">
-                <CardContent className="p-4 flex flex-col items-center justify-center text-center">
                   <BookOpen className="h-8 w-8 text-primary mb-2" />
                   <h4 className="font-medium">Education</h4>
                   <p className="text-sm text-muted-foreground">
@@ -111,22 +103,6 @@ export function AboutSection() {
                     <br />
                     BTech
                   </p>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-primary/5 hover:bg-primary/10 transition-colors duration-300">
-                <CardContent className="p-4 flex flex-col items-center justify-center text-center">
-                  <Coffee className="h-8 w-8 text-primary mb-2" />
-                  <h4 className="font-medium">Projects</h4>
-                  <p className="text-sm text-muted-foreground">20 Completed</p>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-primary/5 hover:bg-primary/10 transition-colors duration-300">
-                <CardContent className="p-4 flex flex-col items-center justify-center text-center">
-                  <Heart className="h-8 w-8 text-primary mb-2" />
-                  <h4 className="font-medium">Clients</h4>
-                  <p className="text-sm text-muted-foreground">-</p>
                 </CardContent>
               </Card>
             </motion.div>

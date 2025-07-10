@@ -54,11 +54,12 @@
     @apply border-border;
   }
   body {
+    scroll-behavior: smooth !important;
     @apply bg-background text-foreground;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
   html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
   }
 }
 

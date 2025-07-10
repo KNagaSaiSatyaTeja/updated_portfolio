@@ -37,8 +37,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 export function SkillsSection() {
   const frontendSkills = [
     { name: "React", level: 90, icon: <Code className="h-4 w-4" /> },
-    { name: "Next.js", level: 60, icon: <Code className="h-4 w-4" /> },
-    { name: "TypeScript", level: 40, icon: <Code className="h-4 w-4" /> },
+    { name: "Next.js", level: 80, icon: <Code className="h-4 w-4" /> },
+    { name: "TypeScript", level: 70, icon: <Code className="h-4 w-4" /> },
     { name: "CSS/Tailwind", level: 95, icon: <Code className="h-4 w-4" /> },
   ];
 
@@ -64,7 +64,7 @@ export function SkillsSection() {
     },
     {
       name: "Python",
-      level: 60,
+      level: 70,
       icon: <Code className="h-10 w-10 text-primary" />,
       description: "General-purpose programming language",
     },
@@ -94,7 +94,7 @@ export function SkillsSection() {
     },
     {
       name: "C",
-      level: 60,
+      level: 80,
       icon: <Code className="h-10 w-10 text-primary" />,
       description: "General-purpose programming language",
     },

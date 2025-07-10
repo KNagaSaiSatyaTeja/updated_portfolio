@@ -25,40 +25,42 @@ export function ProjectsSection() {
       id: 1,
       title: "E-Commerce Platform",
       description:
-        "A full-featured e-commerce platform built with Next.js, TypeScript, and Stripe for payments.",
-      image: "/placeholder.svg?height=400&width=600",
-      tags: ["Next.js", "TypeScript", "Stripe", "Tailwind CSS"],
-      githubUrl: "https://github.com",
+        "A full-featured e-commerce platform built with Next.js, TypeScript.",
+      image: "/image.png?height=400&width=600",
+      tags: ["Next.js", "TypeScript", "Tailwind CSS", "MongoDB", "Express", "Node.js"],
+      githubUrl:
+        "https://github.com/KNagaSaiSatyaTeja/MERN-Full_Stack-E_Commerces",
       liveUrl: "https://example.com",
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "AI-DRIVEN AUTOMATED SCHEDULER",
       description:
         "A collaborative task management application with real-time updates using WebSockets.",
-      image: "/placeholder.svg?height=400&width=600",
-      tags: ["React", "Node.js", "Socket.io", "MongoDB"],
-      githubUrl: "https://github.com",
+      image: "/scheduler.png?height=400&width=600",
+      tags: [
+        "React",
+        "Node.js",
+        "Express",
+        "Python",
+        "Flask",
+        "CSP",
+        "Genetic Algorithm",
+        "MongoDB",
+      ],
+      githubUrl:
+        "https://github.com/KNagaSaiSatyaTeja/AI-DRIVEN-AUTOMATED-SCHEDULER",
       liveUrl: "https://example.com",
     },
+
     {
       id: 3,
-      title: "Weather Dashboard",
-      description:
-        "A weather dashboard that displays current and forecasted weather data from multiple APIs.",
-      image: "/placeholder.svg?height=400&width=600",
-      tags: ["React", "Redux", "Chart.js", "Weather API"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
-    },
-    {
-      id: 4,
       title: "Portfolio Website",
       description:
         "A responsive portfolio website built with Next.js and Tailwind CSS.",
       image: "/protfolio.png",
       tags: ["Next.js", "TypeScript", "ShadCN", "Framer Motion"],
-      githubUrl: "https://github.com",
+      githubUrl: "https://github.com/KNagaSaiSatyaTeja/updated_portfolio",
       liveUrl: "https://example.com",
     },
   ];
@@ -146,7 +148,7 @@ export function ProjectsSection() {
                         <span className="sr-only">GitHub</span>
                       </a>
                     </Button>
-                    <Button
+                    {/* <Button
                       size="icon"
                       variant="outline"
                       className="rounded-full bg-white/20 backdrop-blur-sm hover:bg-white/30"
@@ -160,7 +162,7 @@ export function ProjectsSection() {
                         <ExternalLink className="h-5 w-5 text-white" />
                         <span className="sr-only">Live Demo</span>
                       </a>
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
                 <CardContent className="flex-grow p-6">
@@ -195,7 +197,7 @@ export function ProjectsSection() {
                       Code
                     </a>
                   </Button>
-                  <Button asChild size="sm" className="group">
+                  {/* <Button asChild size="sm" className="group">
                     <a
                       href={project.liveUrl}
                       target="_blank"
@@ -205,7 +207,7 @@ export function ProjectsSection() {
                       <Eye className="h-4 w-4 transition-transform group-hover:scale-110" />
                       Live Demo
                     </a>
-                  </Button>
+                  </Button> */}
                 </CardFooter>
               </Card>
             </motion.div>
